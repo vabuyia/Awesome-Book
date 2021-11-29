@@ -12,7 +12,7 @@
     <title>Awesome Library</title>
   </head>
   <body>
-    <main>
+    <main class="main-Container">
         <section class="all-books">
             <h1>All Awesome Books</h1>
             <div class="listShow"></div>
@@ -21,9 +21,11 @@
         <section class="add-books">
             <h1>Add A New Book</h1>
             <div class="input-book">
-                <input type="text" class="title" placeholder="title">
-                <input type="text" class="author" placeholder="author">
-                <button type="button" class="add">Add</button>
+              <form action="#">
+                <input type="text" class="title" placeholder="title" required>
+                <input type="text" class="author" placeholder="author" required>
+                <input type="button" class="add" value="Add">
+              </form>
             </div>
         </section>
     </main>

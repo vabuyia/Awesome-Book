@@ -10,3 +10,8 @@ body {
   padding: 1vw;
   font-family: sans-serif;
 }
+
+.main-Container {
+  max-width: 35%;
+  margin: auto;
+}
