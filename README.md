@@ -6,54 +6,25 @@
 
 ![screenshot](images/screenshot.png)
 
-
-
 ## Built With
 
 - HTML
 - CSS
 - JavaScript
 
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
 ## Authors
 
-👤 **Author1**
+👤 **Nizamuddin Ahmadzai**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Nizammudin4493](https://github.com/Nizamuddin4493)
+- Twitter: [@Nizammudin4493](https://twitter.com/Nizamuddin4493)
+- LinkedIn: [nizam-udd-in-ahmadzai](https://linkedin.com/in/nizam-udd-in-ahmadzai)
 
-👤 **Author2**
+👤 **Abuya Obunga**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@vabuyia](https://github.com/vabuyia)
+- Twitter: [@abuyiag](https://twitter.com/abuyiag)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/vincent-abuya-a1940555)
 
 ## 🤝 Contributing
 
@@ -67,9 +38,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Hat tip to our code reviewers on Microverse
 
 ## 📝 License
 
