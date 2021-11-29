@@ -26,6 +26,12 @@
 - Twitter: [@abuyiag](https://twitter.com/abuyiag)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/vincent-abuya-a1940555)
 
+👤 **Melanie Sigrid**
+
+- GitHub: [@melaniesigrid](https://github.com/melaniesigrid)
+- Twitter: [@SiriMoon11](https://twitter.com/SiriMoon11)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/melanie-arellano-92aaa9194/)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
