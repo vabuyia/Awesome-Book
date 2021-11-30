@@ -35,3 +35,9 @@ input {
   font-size: 40px;
   margin: 50px auto 25px auto;
 }
+
+.add {
+  margin-top: 10px;
+  width: 70px;
+  height: 30px;
+}
