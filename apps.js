@@ -49,7 +49,7 @@ const generateBooks = () => {
 
     listShowContainer.appendChild(div);
   });
-}
+};
 
 if (localStorage.getItem('bookList') !== null) {
   const localBookList = localStorage.getItem('bookList');
