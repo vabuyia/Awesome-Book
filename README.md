@@ -20,7 +20,7 @@
 - Twitter: [@Nizammudin4493](https://twitter.com/Nizamuddin4493)
 - LinkedIn: [nizam-udd-in-ahmadzai](https://linkedin.com/in/nizam-udd-in-ahmadzai)
 
-👤 **Abuya Obunga**
+👤 **Vincent Abuya Obunga**
 
 - GitHub: [@vabuyia](https://github.com/vabuyia)
 - Twitter: [@abuyiag](https://twitter.com/abuyiag)
