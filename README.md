@@ -16,9 +16,9 @@
 
 👤 **Nizamuddin Ahmadzai**
 
-- GitHub: [@Nizammudin4493](https://github.com/Nizamuddin4493)
-- Twitter: [@Nizammudin4493](https://twitter.com/Nizamuddin4493)
-- LinkedIn: [nizam-udd-in-ahmadzai](https://linkedin.com/in/nizam-udd-in-ahmadzai)
+- GitHub: [@Nizamudin4493](https://github.com/Nizamuddin4493)
+- Twitter: [@Nizamudin4493](https://twitter.com/Nizamuddin4493)
+- LinkedIn: [nizamuddin4493](https://linkedin.com/in/nizamuddin4493)
 
 👤 **Vincent Abuya Obunga**
 
