@@ -21,7 +21,7 @@ class book {
     localStorage.setItem('bookList', JSON.stringify(listedBooks));
   }
 }
-const theTitle = document.querySelector('.title').value;
+const theTitle = document.querySelector(".title").value;
 const theAuthor = document.querySelector('.author').value;
 const addBook = document.querySelector('#add');
 
