@@ -15,9 +15,9 @@ class Booklet {
       title,
       author,
     };
-    this.bookList.unshift(book)
-    this.saveDataLocally(bookList)
-    this.generateBooks()
+    this.bookList.unshift(book);
+    this.saveDataLocally(bookList);
+    this.generateBooks();
   }
 
   generateBooks = () => {
@@ -57,7 +57,7 @@ class Booklet {
       hr.className = 'rule';
       div.appendChild(hr);
       parentElement.appendChild(div);
-    })
+    });
   }
 
   saveDataLocally = (bookList) => {
@@ -69,7 +69,7 @@ class Booklet {
     if (localStorage.getItem('bookList') !== null) {
       const localBookList = localStorage.getItem('bookList');
       const convertedBookList = JSON.parse(localBookList);
-      this.bookList = convertedBookList
+      this.bookList = convertedBookList;
       this.generateBooks();
     } else {
       this.generateBooks();
