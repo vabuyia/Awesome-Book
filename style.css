@@ -128,3 +128,39 @@ input {
   font-weight: 700;
   height: 35px;
 }
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  border: black 3px solid;
+  width: 100%;
+}
+
+.nav-title {
+  padding-left: 5px;
+}
+
+.nav-title h2 {
+  margin: 0;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.link-container {
+  padding: 0 20px;
+}
+
+.link-border {
+  border-right: black 3px solid;
+}
+
+.nav-link-item {
+  margin: 10px;
+}
