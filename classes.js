@@ -30,18 +30,13 @@ class Booklet {
 
       const titleSpan = document.createElement('span');
       titleSpan.className = 'book-title';
-      titleSpan.textContent = bookObject.title;
+      titleSpan.textContent = '"' + bookObject.title + '"' + " by ";
       div.appendChild(titleSpan);
-
-      const br = document.createElement('br');
-      div.appendChild(br);
 
       const authorSpan = document.createElement('span');
       authorSpan.className = 'book-author';
-      authorSpan.textContent = bookObject.author;
+      authorSpan.textContent = " " + bookObject.author;
       div.appendChild(authorSpan);
-      const br2 = document.createElement('br');
-      div.appendChild(br2);
 
       const removeButton = document.createElement('button');
       removeButton.className = 'remove-button';
@@ -52,14 +47,13 @@ class Booklet {
         this.generateBooks();
       });
       div.appendChild(removeButton);
+      const br2 = document.createElement('br');
+      div.appendChild(br2);
 
-      const hr = document.createElement('hr');
-      hr.className = 'rule';
-      div.appendChild(hr);
       parentElement.appendChild(div);
     });
   }
-
+  
   saveDataLocally = (bookList) => {
     const stringifiedBookList = JSON.stringify(bookList);
     localStorage.setItem('bookList', stringifiedBookList);
@@ -81,6 +75,15 @@ class Booklet {
     addButton.addEventListener('click', () => this.addNewBook(this.bookList));
   }
 }
+
+// const book = document.querySelector('.book').value;
+// const convertedBookList = JSON.parse(localBookList);
+
+// for (let i = 0; i < convertedBookList.length; i++) {
+//   if (i % 2 === 0) {
+//     book.style.background = "#bebebe";
+//   }
+// }
 
 const allBooks = new Booklet(document.querySelector('.listShow'));
 allBooks.generateBooks();
