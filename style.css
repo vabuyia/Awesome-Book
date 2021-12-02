@@ -97,6 +97,11 @@ input {
   justify-content: center;
 }
 
+::placeholder {
+  color: black;
+  padding-left: 5px;
+}
+
 .author {
   border: 4px solid #000;
   margin-top: 10px;
