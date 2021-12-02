@@ -30,18 +30,13 @@ class Booklet {
 
       const titleSpan = document.createElement('span');
       titleSpan.className = 'book-title';
-      titleSpan.textContent = bookObject.title;
+      titleSpan.textContent = `${bookObject.title}  By  `;
       div.appendChild(titleSpan);
-
-      const br = document.createElement('br');
-      div.appendChild(br);
 
       const authorSpan = document.createElement('span');
       authorSpan.className = 'book-author';
-      authorSpan.textContent = bookObject.author;
+      authorSpan.textContent = `${bookObject.author}`;
       div.appendChild(authorSpan);
-      const br2 = document.createElement('br');
-      div.appendChild(br2);
 
       const removeButton = document.createElement('button');
       removeButton.className = 'remove-button';
@@ -52,10 +47,9 @@ class Booklet {
         this.generateBooks();
       });
       div.appendChild(removeButton);
+      const br2 = document.createElement('br');
+      div.appendChild(br2);
 
-      const hr = document.createElement('hr');
-      hr.className = 'rule';
-      div.appendChild(hr);
       parentElement.appendChild(div);
     });
   }
@@ -86,3 +80,9 @@ const allBooks = new Booklet(document.querySelector('.listShow'));
 allBooks.generateBooks();
 allBooks.checkLocalStorage();
 allBooks.addListener();
+
+const resetForm = document.querySelector('#add');
+const myForm = document.querySelector('#myForm');
+resetForm.addEventListener('click', () => {
+  myForm.reset();
+});
