@@ -20,12 +20,12 @@ const generateBooks = () => {
 
     const titleSpan = document.createElement('span');
     titleSpan.className = 'book-title';
-    titleSpan.textContent = bookObject.title + " ";
+    titleSpan.textContent = bookObject.title;
     div.appendChild(titleSpan);
 
     const authorSpan = document.createElement('span');
     authorSpan.className = 'book-author';
-    authorSpan.textContent = bookObject.author + " ";
+    authorSpan.textContent = bookObject.author;
     div.appendChild(authorSpan);
 
     const removeButton = document.createElement('button');

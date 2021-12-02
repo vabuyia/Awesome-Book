@@ -30,12 +30,12 @@ class Booklet {
 
       const titleSpan = document.createElement('span');
       titleSpan.className = 'book-title';
-      titleSpan.textContent = '"' + bookObject.title + '"' + " by ";
+      titleSpan.textContent = `${bookObject.title}  By  `;
       div.appendChild(titleSpan);
 
       const authorSpan = document.createElement('span');
       authorSpan.className = 'book-author';
-      authorSpan.textContent = " " + bookObject.author;
+      authorSpan.textContent = `${bookObject.author}`;
       div.appendChild(authorSpan);
 
       const removeButton = document.createElement('button');
@@ -53,7 +53,7 @@ class Booklet {
       parentElement.appendChild(div);
     });
   }
-  
+
   saveDataLocally = (bookList) => {
     const stringifiedBookList = JSON.stringify(bookList);
     localStorage.setItem('bookList', stringifiedBookList);
