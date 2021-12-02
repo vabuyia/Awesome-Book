@@ -76,16 +76,13 @@ class Booklet {
   }
 }
 
-// const book = document.querySelector('.book').value;
-// const convertedBookList = JSON.parse(localBookList);
-
-// for (let i = 0; i < convertedBookList.length; i++) {
-//   if (i % 2 === 0) {
-//     book.style.background = "#bebebe";
-//   }
-// }
-
 const allBooks = new Booklet(document.querySelector('.listShow'));
 allBooks.generateBooks();
 allBooks.checkLocalStorage();
 allBooks.addListener();
+
+const resetForm = document.querySelector('#add');
+const myForm = document.querySelector('#myForm');
+resetForm.addEventListener('click', () => {
+  myForm.reset();
+});

@@ -6,6 +6,12 @@
 
 ![screenshot](images/screenshot.png)
 
+## Run the Project Locally
+- To Clone the Project Locally Please click the following link.
+- [Awesome Books](https://github.com/vabuyia/Awesome-Book)
+- The click on Green Code button
+- Copy the SSH link and clone it Locally through your Code Editor's terminal.
+
 ## Built With
 
 - HTML
