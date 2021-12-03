@@ -113,7 +113,7 @@ nav {
 .nav-link-item {
   margin: 10px;
   font-size: 25px;
-cursor: pointer;
+  cursor: pointer;
 }
 
 .date-time {
