@@ -19,19 +19,30 @@
   </head>
   <body>
     <nav>
+      <div class="website-top">
+        <div class="website-title"><h2>A Web Page</h2></div>
+        <div class="web-content">
+          <img src="images/left.png" alt="left arrow" class="arrows">
+          <img src="images/right.png" alt="right arrow" class="arrows">
+          <img src="images/delete-cross.png" alt="delete" class="cross">
+          <img src="images/home.png" alt="home" class="home">
+          <div class="address-bar"><p class="address">https://</p></div>
+          <img src="images/searching-bar3.png" alt="search" class="search">
+        </div>
+      </div>
       <div class="navigation">
         <div class="nav-title">
           <h2>Awesome Books</h2>
         </div>
         <div class="nav-links">
           <div class="link-container link-border">
-            <h4 class="nav-link-item" onclick="navigation('list')">List</h4>
+            <h4 class="nav-link-item list-action" onclick="navigation('list')">List</h4>
           </div>
           <div class="link-container link-border">
-            <h4 class="nav-link-item right" onclick="navigation('add')">Add new </h4>
+            <h4 class="nav-link-item right add-action" onclick="navigation('add')">Add new </h4>
           </div>
           <div class="link-container"> 
-            <h4 class="nav-link-item" onclick="navigation('info')">Contact</h4>
+            <h4 class="nav-link-item contact-action" onclick="navigation('info')">Contact</h4>
           </div>
         </div>
       </div>
@@ -40,12 +51,11 @@
     <main class="main-Container">
       <section class="all-books">
         <h1 class = "main-title">All Awesome Books</h1>
-        <div class="listShow">
+        <div class="listShow" id="books">
 
         </div>
       </section>
-      <hr class="horizontal-line" />
-      <section class="add-books">
+      <section class="add-books" id="add">
         <h4 class="add-title">Add a New Book</h4>
         <div class="input-book">
           <form action="#" id="myForm">
@@ -55,6 +65,11 @@
           </form>
         </div>
       </section>
+      <section class="copyright">
+        <div class="copyright"><h3 class="copyright-text">Copyright: Nizamuddin Ahmadzai, Vincent Abuya Obunga, Melanie Sigrid</h3></div>
+      </section>
+      <footer class="footer">
+      </footer>
     </main>
     <script src="classes.js"></script>
   </body>
