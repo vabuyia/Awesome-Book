@@ -17,6 +17,7 @@
 - HTML
 - CSS
 - JavaScript
+- Luxon
 
 ## Authors
 
@@ -32,7 +33,7 @@
 - Twitter: [@abuyiag](https://twitter.com/abuyiag)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/vincent-abuya-a1940555)
 
-👤 **Melanie Sigrid**
+👤 **Melanie Sigrid Arellano Baratto**
 
 - GitHub: [@melaniesigrid](https://github.com/melaniesigrid)
 - Twitter: [@SiriMoon11](https://twitter.com/SiriMoon11)
