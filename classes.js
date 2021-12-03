@@ -30,12 +30,12 @@ class Booklet {
 
       const titleSpan = document.createElement('span');
       titleSpan.className = 'book-title';
-      titleSpan.textContent = `${bookObject.title}  By  `;
+      titleSpan.textContent = `${bookObject.title} by `;
       div.appendChild(titleSpan);
 
       const authorSpan = document.createElement('span');
       authorSpan.className = 'book-author';
-      authorSpan.textContent = `${bookObject.author}`;
+      authorSpan.textContent = ` ${bookObject.author}`;
       div.appendChild(authorSpan);
 
       const removeButton = document.createElement('button');
@@ -81,8 +81,42 @@ allBooks.generateBooks();
 allBooks.checkLocalStorage();
 allBooks.addListener();
 
-const resetForm = document.querySelector('#add');
+const resetForm = document.querySelector('#addbtn');
 const myForm = document.querySelector('#myForm');
 resetForm.addEventListener('click', () => {
   myForm.reset();
 });
+
+const list = document.querySelector('.list-action');
+const add = document.querySelector('.add-action');
+const contact = document.querySelector('.contact-action');
+
+list.addEventListener('click', () => {
+  document.getElementById('books').style.display = 'block';
+  document.getElementById('add').style.display = 'none';
+  document.getElementById('contact').style.display = 'none';
+});
+
+add.addEventListener('click', () => {
+  document.getElementById('books').style.display = 'none';
+  document.getElementById('add').style.display = 'block';
+  document.getElementById('contact').style.display = 'none';
+});
+
+contact.addEventListener('click', () => {
+  document.getElementById('books').style.display = 'none';
+  document.getElementById('add').style.display = 'none';
+  document.getElementById('contact').style.display = 'block';
+});
+
+window.onload = () => {
+  document.getElementById('add').style.display = 'none';
+  document.getElementById('contact').style.display = 'none';
+  this.generateBooks();
+};
+
+const date = document.getElementById('date');
+// eslint-disable-next-line no-undef
+const DateTime = luxon.DateTime.now();
+// eslint-disable-next-line no-undef
+date.innerHTML = DateTime.toLocaleString(luxon.DateTime.DATETIME_MED);
