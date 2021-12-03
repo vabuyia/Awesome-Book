@@ -81,7 +81,7 @@ allBooks.generateBooks();
 allBooks.checkLocalStorage();
 allBooks.addListener();
 
-const resetForm = document.querySelector('#add');
+const resetForm = document.querySelector('#addbtn');
 const myForm = document.querySelector('#myForm');
 resetForm.addEventListener('click', () => {
   myForm.reset();
