@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/vabuyia/Awesome-Book#readme",
   "dependencies": {
+    "full-icu": "^1.4.0",
     "luxon": "^2.1.1"
   }
 }

@@ -1,3 +1,6 @@
+/* eslint-disable global-require */
+/* eslint-disable prefer-destructuring */
+/* eslint-disable no-undef */
 class Booklet {
   constructor(listShowContainer) {
     this.bookList = [];
@@ -30,12 +33,12 @@ class Booklet {
 
       const titleSpan = document.createElement('span');
       titleSpan.className = 'book-title';
-      titleSpan.textContent = `${bookObject.title}` + " by  ";
+      titleSpan.textContent = `${bookObject.title} by `;
       div.appendChild(titleSpan);
 
       const authorSpan = document.createElement('span');
       authorSpan.className = 'book-author';
-      authorSpan.textContent = " " + `${bookObject.author}`;
+      authorSpan.textContent = ` ${bookObject.author}`;
       div.appendChild(authorSpan);
 
       const removeButton = document.createElement('button');
@@ -112,5 +115,5 @@ contact.addEventListener('click', () => {
 window.onload = () => {
   document.getElementById('add').style.display = 'none';
   document.getElementById('contact').style.display = 'none';
-  generateBooks();
+  this.generateBooks();
 };
