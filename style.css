@@ -123,7 +123,7 @@ nav {
 
 .all-books {
   font-size: 30px;
-  margin: 20px auto;
+  margin: 20px 20px;
 }
 
 .book {
@@ -135,6 +135,10 @@ nav {
 
 .book:nth-child(odd) {
   background: lightgrey;
+}
+
+.book-author {
+  margin-left: 10px;
 }
 
 .main-title {
