@@ -36,6 +36,10 @@ nav {
   background: lightgrey;
 }
 
+.a-web-page {
+  margin: 10px;
+}
+
 .web-content {
   display: flex;
   justify-content: center;
