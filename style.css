@@ -36,6 +36,10 @@ nav {
   background: lightgrey;
 }
 
+.a-web-page {
+  margin: 10px;
+}
+
 .web-content {
   display: flex;
   justify-content: center;
@@ -112,6 +116,8 @@ nav {
 
 .nav-link-item {
   margin: 10px;
+  font-size: 25px;
+  cursor: pointer;
 }
 
 .date-time {
@@ -119,6 +125,7 @@ nav {
   width: 100%;
   font-size: 25px;
   padding-right: 40px;
+  margin: 10px;
 }
 
 .main-Container {
@@ -272,9 +279,9 @@ nav {
   display: flex;
   font-size: 35px;
   font-weight: 700;
-  align-items: flex-end;
+  justify-content: flex-end;
 }
 
 .bars {
-  right: 0;
+  margin: 10px;
 }
