@@ -1,0 +1,22 @@
+{
+  "name": "awesome-book",
+  "version": "1.0.0",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "main": "classes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vabuyia/Awesome-Book.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vabuyia/Awesome-Book/issues"
+  },
+  "homepage": "https://github.com/vabuyia/Awesome-Book#readme",
+  "dependencies": {
+    "luxon": "^2.1.1"
+  }
+}
