@@ -114,6 +114,13 @@ nav {
   margin: 10px;
 }
 
+.date-time {
+  text-align: right;
+  width: 100%;
+  font-size: 25px;
+  padding-right: 40px;
+}
+
 .main-Container {
   margin: auto;
   display: flex;
